@@ -1,1 +1,1 @@
-https://amtikh.github.io/rsschool-cv/index.html
+https://amtikh.github.io/rsschool-cv/cv
