@@ -46,3 +46,8 @@ div{
     
     
   }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+  
