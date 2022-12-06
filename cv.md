@@ -13,7 +13,7 @@
 
 ### About me:
 At the moment I'm just starting to learn programming.
-In my free time I ride a bike, I like to be in nature, travel.
+In my free time I ride a bike, I like to be in nature, travel. I like to read books.
 
 ---
 
