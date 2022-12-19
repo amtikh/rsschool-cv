@@ -3,148 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-   <header class ="header">
-    <div class="container">
-     <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#profile" class="nav-link">profile</a></li>
-        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-        <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
-        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-      </ul>
-     </nav>
-   </div>
-  </header>
-  <main class="main">
-      <div class="container"> 
-        <div class="left-side">
-          <figure class="figure--left-side">
-            <img
-              src="assets/photo.jpg"
-              class="photo"
-              alt="Photo of Aleksey Tikhonov"
-              width="200"
-            />
-          </figure>
-        <section class="section" id="profile">
-          <h1>Aleksey Tikhonov</h1>
-          <p> Future front-end developer</p>
-        </section>
-        <section class="section" id="contacts">
-          <h2 class="section-title">Contacts</h2>
-          <ul class="contact__list">
-            <li class="contact__item">
-              Discord: <br>
-              Aleksey Tikhonov (altikh)#1118
-            </li>
-            <li class="contact__item">
-              Email: <a href="mailto:altikhon@gmail.com">altikhon@gmail.com</a>
-            </li>
-            <li class="contact__item">
-            Telegram: <a href="https://t.me/TLT_Aleksey_Tikhonov">@TLT_Aleksey_Tikhonov</a>
-            </li>
-            <li class="contact__item">
-              Address:<br />
-              <span>Togliatti, Russia</span>
-            </li>
+    <header class="header container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
           </ul>
-        </section>
-        <section class="about-me" id="about-me">
-          <h2 class="section-title">About me</h2>
-          <p>            
-            At the moment I'm just starting to learn programming.<br />
-            In my free time I ride a bike, I like to be in nature, travel.
-          </p>
-        </section>
-        <section class="skills" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <ul class="skills__list">
-            <li>Git</li>
-            <li>HTML/HTML5, CSS3</li>
+        </nav>
+    </header>
+    <div class="main_page">
+        <aside class="aside">
+          <div class="avatar">
+            <img class="avatar" src="assets/photo.jpg" width="250" height="250" alt="Photo of Aleksey Tikhonov">
+          </div>
+          <h3 class="contacts">Contacts</h3>
+          <ul class="column">
+            <li>
+              <span>Phone number:</span>
+              <a class="column_contacts" href="tel:+">+79093642221</a>
+            </li>
+            <li>
+              <span>Email:</span>
+              <a class="column_contacts" href="mailto:">altikhon@gmail.com</a>
+            </li>
+            <li>
+              <span>GitHub:</span>
+              <a class="column_contacts" href="https://github.com/amtikh" target="_blank">amtikh</a>
+            </li>
+            <li>
+              <span>Telegram:</span>
+              <span>@TLT_Aleksey_Tikhonov</span>
+            </li>
+            <li>
+              <span>Discord:</span>
+              <span>Aleksey Tikhonov (altikh)#1118</span>
+            </li>  
           </ul>
-        </section>
-        <section class="code" id="code">
-          <h2 class="section-title">Code</h2>
-              <pre>
-              <code>
-                const assert = require("chai").assert;
-
-                describe("Multiply", () => {
-                it("fixed tests", () => {
-                assert.strictEqual(multiply(1,1), 1);
-                assert.strictEqual(multiply(2,1), 2);
-                assert.strictEqual(multiply(2,2), 4);
-                assert.strictEqual(multiply(3,5), 15);   
-                });
-                });                  
-              </code>
-            </pre>
-        </section>
-        <section class="courses" id="courses">
-          <h2 class="section-title">Courses</h2>
-          <ul class="courses__list">
-            <li class="courses__item">
-              I'm taking a course JS/FE Pre-School 2022Q2
-            </li>
-            </ul>
-        </section>
-        <section class="section" id="projects">
-          <h2 class="section-title">Projects</h2>
-          <ul class="projects__list">
-            <li class="projects__item">
-              <a href="https://amtikh.github.io/rsschool-cv/"> Project CV</a>
-            </li>
-          </ul>
-        </section>
-        
-        <section class="education" id="education">
-          <h2 class="section-title">Education</h2>
-          <ul class="education__list">
-            <li class="education__item">
-              1996-2001 <br />Togliatti Polytechnic Institute -<br />
-              Design Engineer
-            </li>
-          </ul>
-        </section>
-        <section class="languages" id="languages">
-          <h2 class="section-title">Languages</h2>
-          <ul class="education__list">
-            <li class="languages__item">
-              Russian
-            </li>
-            <li class="languages__item">
-              Ehglish - Beginner
-            </li>
-          </ul>
-        </section>
-      </div>
+        </aside>
+        <main class="main">
+            <h1>Aleksey Tikhonov</h1>
+            <h3>front-end developer</h3>  
+            <section class="section" id="about-me">
+              <h2>ABOUT ME</h2>
+              <p>At the moment I'm just starting to learn programming.<br />
+                In my free time I ride a bike, I like to be in nature, travel.
+              </p>
+            </section>
+            <section class="section" id="education">
+              <h2>EDUCATION</h2>
+              <ul>
+                <li class="education__item">
+                  1996-2001 <br />Togliatti Polytechnic Institute -<br />
+                  Design Engineer
+                </li>
+              </ul>
+            </section>
+            <section class="projects" id="projects">
+              <h2>PROJECTS</h2>
+              <a href="https://amtikh.github.io/rsschool-cv/">Project CV</a>
+            </section>
+            <section class="section" id="code">
+              <h2>CODE</h2>
+              <p>
+                <pre>
+                  <code>
+                    const assert = require("chai").assert;
+    
+                    describe("Multiply", () => {
+                    it("fixed tests", () => {
+                    assert.strictEqual(multiply(1,1), 1);
+                    assert.strictEqual(multiply(2,1), 2);
+                    assert.strictEqual(multiply(2,2), 4);
+                    assert.strictEqual(multiply(3,5), 15);   
+                    });
+                    });                  
+                  </code>
+                </pre>
+              </p>
+            </section>
+            <section class="courses" id="courses">
+              <h2 class="section-title">COURSES</h2>
+              <ul class="courses__list">
+                <li class="courses__item">
+                  I'm taking a course JS/FE Pre-School 2022Q4
+                </li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+              <h2>SKILLS</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Git</li>
+              </ul>
+            </section>
+            <section class="section" id="languages">
+              <h2>LANGUAGES</h2>
+              <ul>
+                <li>Russian</li>
+                <li>English: Beginner</li>
+              </ul>
+            </section>
+        </main>
     </div>
-  </main>
-  <footer class="footer">
-        <div class="container"> 
-          <a class="footer__github" href="https://github.com/amtikh" target="_blank">
-        My GitHub
-      </a>
-      <p class="footer__year">2022</p>
-      <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
-        <img
-          src="assets/rs_school_js.svg"
-          width="86"
-          height="32"
-          alt="RS School"
-        />
-      </a>
-        </div>
-       </footer>
+    <footer class="footer container">
+        <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/rs_school_js.svg" width="110" height="50" alt="rs_school_logo"></a>
+        <span>2022</span>
+        <a href="https://github.com/amtikh" target="_blank"><img src="assets/github.svg" width="50" height="50" alt="github_logo"></a>
+        
+    </footer>
 </body>
 </html>
