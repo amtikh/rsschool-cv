@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header class="header container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="main_page">
+        <aside class="aside">
+          <div class="avatar">
+            <img class="avatar" src="assets/photo.jpg" width="250" height="250" alt="Photo of Aleksey Tikhonov">
+          </div>
+          <h3 class="contacts" id="contacts">Contacts</h3>
+          <ul class="column">
+            <li>
+              <span>Phone number:</span>
+              <a class="column_contacts" href="tel:+">+79093642221</a>
+            </li>
+            <li>
+              <span>Email:</span>
+              <a class="column_contacts" href="mailto:">altikhon@gmail.com</a>
+            </li>
+            <li>
+              <span>GitHub:</span>
+              <a class="column_contacts" href="https://github.com/amtikh" target="_blank">amtikh</a>
+            </li>
+            <li>
+              <span>Telegram:</span>
+              <span>@TLT_Aleksey_Tikhonov</span>
+            </li>
+            <li>
+              <span>Discord:</span>
+              <span>Aleksey Tikhonov (altikh)#1118</span>
+            </li>  
+          </ul>
+        </aside>
+        <main class="main">
+            <h1>Aleksey Tikhonov</h1>
+            <h3>front-end developer</h3>  
+            <section class="section" id="about-me">
+              <h2>ABOUT ME</h2>
+              <p>At the moment I'm just starting to learn programming.<br/>
+                In my free time I ride a bike, I like to be in nature, travel.
+              </p>
+            </section>
+            <section class="section" id="education">
+              <h2>EDUCATION</h2>
+              <ul>
+                <li class="education__item">
+                  1996-2001 <br/>Togliatti Polytechnic Institute -<br/>
+                  Design Engineer
+                </li>
+              </ul>
+            </section>
+            <section class="projects" id="projects">
+              <h2>PROJECTS</h2>
+              <ul>
+                <li>
+                  <a href="https://amtikh.github.io/rsschool-cv/">Project CV</a>
+                </li>
+                <li>
+                  <a href="https://amtikh.github.io/Watch/">Watch</a>
+                </li>
+              </ul>
+              
+              
+            </section>
+            <section class="section" id="code">
+              <h2>CODE</h2>
+                <pre>
+                  <code>
+                    const assert = require("chai").assert;
+    
+                    describe("Multiply", () => {
+                    it("fixed tests", () => {
+                    assert.strictEqual(multiply(1,1), 1);
+                    assert.strictEqual(multiply(2,1), 2);
+                    assert.strictEqual(multiply(2,2), 4);
+                    assert.strictEqual(multiply(3,5), 15);   
+                    });
+                    });                  
+                  </code>
+                </pre>
+            </section>
+            <section class="courses" id="courses">
+              <h2 class="section-title">COURSES</h2>
+              <ul class="courses__list">
+                <li class="courses__item">
+                  I'm taking a course JS/FE Pre-School 2022Q4
+                </li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+              <h2>SKILLS</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Git</li>
+              </ul>
+            </section>
+            <section class="section" id="languages">
+              <h2>LANGUAGES</h2>
+              <ul>
+                <li>Russian</li>
+                <li>English: Beginner</li>
+              </ul>
+            </section>
+        </main>
+    </div>
+    <footer class="footer container">
+        <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/rs_school_js.svg" width="110" height="50" alt="rs_school_logo"></a>
+        <span>2022</span>
+        <a href="https://github.com/amtikh" target="_blank"><img src="assets/github.svg" width="50" height="50" alt="github_logo"></a>
+        
+    </footer>
+</body>
+</html>
